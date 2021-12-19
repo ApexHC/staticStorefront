@@ -1,0 +1,84 @@
+    /*
+MASTER CSS LIST FOR LEARNING SYSTEM
+
+*/
+    
+    body {
+        background-color: white;
+        font-family: sans-serif;
+        margin: 0;
+        height: 100vh;
+    }
+    
+    .nav-logo {
+        float: right;
+        width: auto;
+    }
+    
+    .nav-logo ul li {
+        display: inline-block;
+        font-size: 1.5em;
+        background-color: #13a0ff;
+        border: solid 1px gray;
+        padding: .25rem .5 rem;
+        line-height: 1.5rem;
+        text-decoration: none;
+    }
+    
+    .nav-logo ul li a {
+        color: white;
+        background-color: #13a0ff;
+        border: solid gray;
+        border-radius: 10px;
+        padding: .25rem .5rem;
+        line-height: 1.5rem;
+        text-decoration: none;
+    }
+    
+    .navigation-bar {
+        height: 80px;
+        max-height: 150px;
+        background-color: white;
+        margin: 0;
+    }
+    
+    .navigation-bar img {
+        height: 80px;
+        margin-left: 20px;
+    }
+    
+    .container {
+        font-size: 2.0em;
+        font-weight: bolder;
+        position: relative;
+        text-align: center;
+        color: black;
+    }
+    
+    .top-left {
+        width: 50%;
+        text-align: left;
+        position: absolute;
+        top: 75px;
+        left: 75px;
+    }
+    
+    .centered {
+        color: #13a0ff;
+        font-size: 2.0em;
+        font-weight: bolder;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .bottom-centered {
+        color: black;
+        font-size: .85em;
+        font-weight: bold;
+        position: absolute;
+        top: 75%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+    }
